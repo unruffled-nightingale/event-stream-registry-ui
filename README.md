@@ -2,6 +2,10 @@
 
 A React component for observing and monitoring event streams.
 
+![alt text](screenshots/graph.png)
+
+Visit the example page [here](https://unruffled-nightingale.github.io/event-stream-registry-ui/).
+
 ---
 
 The Event Stream Registry UI renders a dataset of type 
