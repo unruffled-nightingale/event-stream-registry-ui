@@ -1,6 +1,7 @@
 {
   "name": "event-registry-view",
   "version": "0.1.0",
+  "homepage": "https://unruffled-nightingale.github.io/event-stream-registry-ui",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
@@ -14,12 +15,13 @@
     "@types/lodash.debounce": "^4.0.7",
     "@types/node": "^18.7.14",
     "@types/object-hash": "^2.2.1",
+    "@types/react": "^18.0.18",
     "@types/react-dom": "^18.0.6",
     "@types/react-table": "^7.7.12",
-    "@types/react": "^18.0.18",
     "add": "^2.0.6",
     "bezier-js": "^6.1.0",
     "d3": "^7.6.1",
+    "gh-pages": "^4.0.0",
     "lodash.debounce": "^4.0.8",
     "material-icons": "^1.11.11",
     "node-cache": "^5.1.2",
@@ -36,6 +38,8 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
